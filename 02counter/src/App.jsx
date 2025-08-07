@@ -15,9 +15,6 @@ function App() {
       // setCounter((prevCounter) => prevCounter + 1)
       // setCounter((prevCounter) => prevCounter + 1)
       // setCounter((prevCounter) => prevCounter + 1)         //So this is done to override the batch update problem of Fiber algortithm and henc we will see increaments of 4
-    
-
-
     }
     
   }
