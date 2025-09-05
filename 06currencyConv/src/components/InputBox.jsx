@@ -39,7 +39,8 @@ function InputBox({
                 >
                     
                         {currencyOptions.map((currency) => (
-                            <option key={currency} value={currency}>
+                            <option key={currency} value={currency}>                     /
+                                                                                                                {/* whenever we are looping inside a jsx, we use a "key" to optimize the performance */}
                             {currency}
                             </option>
                         ))}
