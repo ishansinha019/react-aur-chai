@@ -10,9 +10,9 @@ function App() {
   const [to, setTo] = useState("inr")
   const [convertedAmount, setConvertedAmount] = useState(0)
 
-  const currencyInfo = useCurrencyInfo(from)
+  const currencyInfo = useCurrencyInfo(from)     //since useCurrencyInfo accepts currency as input, we are taking that input "from" the user
 
-  const options = Object.keys(currencyInfo)
+  const options = Object.keys(currencyInfo)      //this contains all the currency options to choose from 
 
   const swap = () => {
     setFrom(to)
