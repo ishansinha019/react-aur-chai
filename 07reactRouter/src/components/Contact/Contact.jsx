@@ -23,7 +23,7 @@ export default function Contact() {
                                     stroke-width="1.5"
                                     viewBox="0 0 24 24"
                                     className="w-8 h-8 text-gray-500"
-                                >
+                                >/
                                     <path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
